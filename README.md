@@ -3,14 +3,15 @@
 # Grade Tracker
 
 A students grade tracker for school examinations.
-Asssigns the grade to each student by the use of a Python function and if/else loop.
+It reads the students' raw data logged by the teacher, cleans it, computes the results then outputs the report.
 
 ## What It Does
 
-- Accepts students score list
-- Calculates each student's average score
-- Prints the average grade notes
-- Exports a weekly summary report as JSON
+- Reads students score from a structured CSV data
+- Handles missing and invalid input without crashing
+- Calculates and assigns each student's average score
+- Formats a clear report
+- Exports the summary to JSON
 
 ## Setup
 
