@@ -9,7 +9,7 @@ It reads the students' raw data logged by the teacher, cleans it, computes the r
 
 - Reads students score from a structured CSV data
 - Handles missing and invalid input without crashing
-- Calculates and assigns each student's average score
+- Applies logic to compute results  and assign each student's average score and grade
 - Formats a clear report
 - Exports the summary to JSON
 
