@@ -41,4 +41,6 @@ Edwin Kibet           94.7     A
 
 ## Stack
 
-Python, JSON
+Python
+
+Built-in Modules: `io`, `csv`, `JSON`
