@@ -35,8 +35,8 @@ def letters_grade(average):
 
 #Process the CSV data
 
-f = io.StringIO(csv_data)
-reader = csv.DictReader(f)
+
+reader = csv.DictReader(io.StringIO(csv_data))
 results = []
 print("=" * 50)
 print(f"{'NAME':<20} {'AVERAGE':>5} {'GRADE':>5} NOTES")
